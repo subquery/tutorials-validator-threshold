@@ -1,5 +1,5 @@
 // Auto-generated , DO NOT EDIT
-import {Entity} from "@subql/types";
+import {Entity, FunctionPropertyNames} from "@subql/types";
 import assert from 'assert';
 
 
@@ -49,7 +49,8 @@ export class ValidatorThreshold implements Entity {
 
 
 
-    static create(record){
+    static create(record: Partial<Omit<ValidatorThreshold, FunctionPropertyNames<ValidatorThreshold>>> & Entity): ValidatorThreshold {
+        assert(typeof record.id === 'string', "id must be provided");
         let entity = new ValidatorThreshold(record.id);
         Object.assign(entity,record);
         return entity;
