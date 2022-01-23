@@ -6,7 +6,7 @@
   "homepage": "https://github.com/subquery/subql-examples",
   "repository": "github:subquery/subql-examples",
   "scripts": {
-    "build": "tsc -b",
+    "build": "subql build",
     "prepack": "rm -rf dist && npm build",
     "start:docker": "docker-compose pull && docker-compose up --remove-orphans",
     "codegen": "subql codegen"
