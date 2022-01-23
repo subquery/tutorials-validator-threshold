@@ -1,1 +1,2 @@
-export * from './mappings/ValidatorThreshold';
+import "@polkadot/api-augment";
+export * from "./mappings/ValidatorThreshold";
