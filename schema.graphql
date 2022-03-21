@@ -3,9 +3,9 @@ type ValidatorThreshold @entity {
   # era index
   id: ID!
 
-  startBlock: Int!
+  startBlock: Int! @index(unique: true)
 
-  timestamp: Date!
+  timestamp: Date! @index(unique: true)
 
   validatorWithLeastBond: String
 
