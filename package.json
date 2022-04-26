@@ -9,7 +9,8 @@
     "build": "subql build",
     "prepack": "rm -rf dist && npm build",
     "start:docker": "docker-compose pull && docker-compose up --remove-orphans",
-    "codegen": "subql codegen"
+    "codegen": "subql codegen",
+    "deploy": "subql publish"
   },
   "files": [
     "dist",
@@ -19,9 +20,9 @@
   "author": "Ian He",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@polkadot/api": "^7",
+    "@polkadot/api": "^7.15.1",
     "@subql/types": "0.14.0",
-    "typescript": "4.4.4",
-    "@subql/cli": "0.22.0"
+    "typescript": "4.6.3",
+    "@subql/cli": "0.26.0"
   }
 }
