@@ -9,8 +9,7 @@ runner:
     name: '@subql/query'
     version: '*'
 description: >-
-  This subquery indexes bond,reward and slash of each block, summarize total
-  earning of an account
+  This subquery indexes the least staking amount required for a validator to be elected.
 repository: 'https://github.com/subquery/subql-examples'
 schema:
   file: ./schema.graphql
