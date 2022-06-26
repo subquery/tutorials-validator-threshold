@@ -710,7 +710,7 @@
     ed2curve "^0.3.0"
     tweetnacl "^1.0.3"
 
-"@polkadot/util@8.7.1", "@polkadot/util@^8.7.1":
+"@polkadot/util@8.7.1", "@polkadot/util@^8", "@polkadot/util@^8.7.1", "@polkadot/util@^9":
   version "8.7.1"
   resolved "https://registry.yarnpkg.com/@polkadot/util/-/util-8.7.1.tgz#27fe93bf7b8345276f10cfe9c0380510cd4584f6"
   integrity sha512-XjY1bTo7V6OvOCe4yn8H2vifeuBciCy0gq0k5P1tlGUQLI/Yt0hvDmxcA0FEPtqg8CL+rYRG7WXGPVNjkrNvyQ==
@@ -720,20 +720,6 @@
     "@polkadot/x-global" "8.7.1"
     "@polkadot/x-textdecoder" "8.7.1"
     "@polkadot/x-textencoder" "8.7.1"
-    "@types/bn.js" "^5.1.0"
-    bn.js "^5.2.0"
-    ip-regex "^4.3.0"
-
-"@polkadot/util@^8":
-  version "8.6.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/util/-/util-8.6.1.tgz#48216218ed643401e66512579f95223cac15037b"
-  integrity sha512-/I0DDo/32wUH6A5qC7SPSSpzHfgZUaRkmWIzovCsIddY389S+C7lI1Ow/A0vhr1bHWrI0L5sV5IJfNpUOQfaSQ==
-  dependencies:
-    "@babel/runtime" "^7.17.8"
-    "@polkadot/x-bigint" "8.6.1"
-    "@polkadot/x-global" "8.6.1"
-    "@polkadot/x-textdecoder" "8.6.1"
-    "@polkadot/x-textencoder" "8.6.1"
     "@types/bn.js" "^5.1.0"
     bn.js "^5.2.0"
     ip-regex "^4.3.0"
@@ -761,14 +747,6 @@
     "@polkadot/wasm-crypto-asmjs" "^5.1.1"
     "@polkadot/wasm-crypto-wasm" "^5.1.1"
 
-"@polkadot/x-bigint@8.6.1":
-  version "8.6.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/x-bigint/-/x-bigint-8.6.1.tgz#0d404307faab90f348d97dd181e0275067bf77e9"
-  integrity sha512-k8FiamE5t8WSSVGaFTMdpkyCwvpq8rq0FfGq82bZabkzmEps1lIj8h5nNwwsPHleO55LtVIMYvZZ4VR3fth+xA==
-  dependencies:
-    "@babel/runtime" "^7.17.8"
-    "@polkadot/x-global" "8.6.1"
-
 "@polkadot/x-bigint@8.7.1":
   version "8.7.1"
   resolved "https://registry.yarnpkg.com/@polkadot/x-bigint/-/x-bigint-8.7.1.tgz#a496225def32e98c430c76b91c1579f48acf501a"
@@ -787,13 +765,6 @@
     "@types/node-fetch" "^2.6.1"
     node-fetch "^2.6.7"
 
-"@polkadot/x-global@8.6.1":
-  version "8.6.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/x-global/-/x-global-8.6.1.tgz#0e7ba5238c20e0ed6c75b8e9b916cb8ca2c950aa"
-  integrity sha512-08ePLMEh8MVNk+jvl82L/CRwfIutwbpziC1XhgM+/iJShac7kEqI1ZL6F91sHp6+mFLm8OtyL4NJuPxglchppQ==
-  dependencies:
-    "@babel/runtime" "^7.17.8"
-
 "@polkadot/x-global@8.7.1", "@polkadot/x-global@^8.7.1":
   version "8.7.1"
   resolved "https://registry.yarnpkg.com/@polkadot/x-global/-/x-global-8.7.1.tgz#b972044125a4fe059f4aef7c15a4e22d18179095"
@@ -809,14 +780,6 @@
     "@babel/runtime" "^7.17.8"
     "@polkadot/x-global" "8.7.1"
 
-"@polkadot/x-textdecoder@8.6.1":
-  version "8.6.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/x-textdecoder/-/x-textdecoder-8.6.1.tgz#2bddda36d541d491b608098aad7c844fed384685"
-  integrity sha512-AIVZRpujjlzSqr51XW0JnX9O3K753R7YnPxseztHwqAREvY1HP7Jm9hDBk415qf8IcB2Ttm1fzpwphKu6/nTwA==
-  dependencies:
-    "@babel/runtime" "^7.17.8"
-    "@polkadot/x-global" "8.6.1"
-
 "@polkadot/x-textdecoder@8.7.1":
   version "8.7.1"
   resolved "https://registry.yarnpkg.com/@polkadot/x-textdecoder/-/x-textdecoder-8.7.1.tgz#b706ef98d5a033d02c633009fb8dab4a4f9d7d55"
@@ -824,14 +787,6 @@
   dependencies:
     "@babel/runtime" "^7.17.8"
     "@polkadot/x-global" "8.7.1"
-
-"@polkadot/x-textencoder@8.6.1":
-  version "8.6.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/x-textencoder/-/x-textencoder-8.6.1.tgz#d7f177194184784a78ca85b0a79f0f2684da9b38"
-  integrity sha512-16Poz8vpHgMDe7QeQ1J49P547okfWUO/CfHLVz9GRgz4SVFPqFGmZ2bfQlWI9TfaYlyw7MjGW5Qq3VijO2vBbw==
-  dependencies:
-    "@babel/runtime" "^7.17.8"
-    "@polkadot/x-global" "8.6.1"
 
 "@polkadot/x-textencoder@8.7.1":
   version "8.7.1"
@@ -909,19 +864,22 @@
   resolved "https://registry.yarnpkg.com/@scure/base/-/base-1.0.0.tgz#109fb595021de285f05a7db6806f2f48296fcee7"
   integrity sha512-gIVaYhUsy+9s58m/ETjSJVKHhKTBMmcRb9cEV5/5dwvfDlfORjKrFsDeDHWRrm6RjcPvCLZFwGJjAjLj1gg4HA==
 
-"@subql/cli@0.26.0":
-  version "0.26.0"
-  resolved "https://registry.yarnpkg.com/@subql/cli/-/cli-0.26.0.tgz#40910fc8add154213ed01f25b54316f27acec8d5"
-  integrity sha512-tcMdwfsTxkd6mCrLEhIKQqPThCBqoiubxkyFUqTeOEhKFFjtAMCiMBcKFMOBTSQm90qOBpA6puw40/cdFDgADQ==
+"@subql/cli@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@subql/cli/-/cli-1.1.0.tgz#06b1fca91fc2e667fe79daa3de4838bc17f2ddc9"
+  integrity sha512-tm5kIqG9vN8t7GnopZBlHbELKw04FpvVGNxXbVubL7kE0vGbta8hvWk0xjvUd5zpAQKd96wzFBiUSrhg8GF8iA==
   dependencies:
     "@oclif/command" "^1.8.16"
     "@oclif/config" "^1.18.3"
     "@oclif/core" "^1.3.3"
     "@oclif/plugin-help" "^3.2.3"
-    "@subql/common" "0.21.1"
-    "@subql/common-substrate" "0.3.0"
-    "@subql/common-terra" "0.3.0"
-    "@subql/validator" "0.6.0"
+    "@subql/common" "1.2.0"
+    "@subql/common-avalanche" "^0.0.3-2"
+    "@subql/common-cosmos" latest
+    "@subql/common-substrate" "1.1.0"
+    "@subql/common-terra" "^0.6.0"
+    "@subql/utils" "1.0.0"
+    "@subql/validator" "1.2.0"
     "@types/ejs" "^3.1.0"
     "@types/inquirer" "^8.2.0"
     cli-ux "^6.0.9"
@@ -940,14 +898,14 @@
     websocket "^1.0.34"
     yaml-loader "^0.6.0"
 
-"@subql/common-substrate@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@subql/common-substrate/-/common-substrate-0.3.0.tgz#33df5c48438fb55475f10b23df12b5b59e43d8ae"
-  integrity sha512-+J/m8JUqPz/tX7sjzUQVfaWv5JeCU9GGYdK3ktVTAL6mVHozHgLS45JTITpnwfVBeqGEO8/SILyniVQv9Kv/8Q==
+"@subql/common-avalanche@^0.0.3-2":
+  version "0.0.3-2"
+  resolved "https://registry.yarnpkg.com/@subql/common-avalanche/-/common-avalanche-0.0.3-2.tgz#4075e36221176eabf0cd829584e83de74985c4e7"
+  integrity sha512-PnQELzqdXNSx8VVWiDZOwPE24/1kprT4AXDdUFBpyWFObomCj923tRP9+SUASi1hB/qEL3OJzwTogGM8iJJieg==
   dependencies:
     "@polkadot/util" "^8"
-    "@subql/common" "0.21.0"
-    "@subql/types" "0.14.0"
+    "@subql/common" "1.0.1-0"
+    "@subql/types-avalanche" "0.0.3-4"
     bn.js "4.11.6"
     class-transformer "0.4.0"
     class-validator "^0.13.2"
@@ -958,13 +916,16 @@
     pino "^6.13.3"
     reflect-metadata "^0.1.13"
     sequelize "^6.6.2"
+    vm2 "^3.9.9"
 
-"@subql/common-terra@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@subql/common-terra/-/common-terra-0.3.0.tgz#ace71e1e8e2a2df5c7b3ad1e3a59591a17bc4932"
-  integrity sha512-wxVdGRkIFC2ZqSDnfdcgA0nBDEfhU5SSLJ5YyDYXPpKEhlT4ZAsjym9PyiGvuo8AZ+PpdreAZBy5UjQTpxclYg==
+"@subql/common-avalanche@latest":
+  version "0.0.2-0"
+  resolved "https://registry.yarnpkg.com/@subql/common-avalanche/-/common-avalanche-0.0.2-0.tgz#4d5c40fa1aa5f12012b77e3c46cdbf7f189eee34"
+  integrity sha512-Cq54ve9uD5yo0NSGzulRQq1EILDHfJ4uUanivQSDNMO7DTWfZcQmMxUTIl14W+v6H1S6lUG4wfp7Cut+KY2Wpg==
   dependencies:
-    "@subql/types-terra" "0.3.0"
+    "@polkadot/util" "^8"
+    "@subql/common" "0.22.0"
+    "@subql/types-avalanche" "0.0.2-0"
     bn.js "4.11.6"
     class-transformer "0.4.0"
     class-validator "^0.13.2"
@@ -975,74 +936,146 @@
     pino "^6.13.3"
     reflect-metadata "^0.1.13"
     sequelize "^6.6.2"
+    vm2 "^3.9.9"
 
-"@subql/common@0.21.0":
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/@subql/common/-/common-0.21.0.tgz#4687289daa83fe2ef6d5e158edc74696721cd3b6"
-  integrity sha512-s/8GaV7jpQGetRH/v2a+B1dE6okzO20u3ePgEZnSs4ZyRe8/VFnPMgU7jbzSpl//TO1+hx5W2f/xA0wxtlMdKQ==
+"@subql/common-cosmos@^0.0.6", "@subql/common-cosmos@latest":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@subql/common-cosmos/-/common-cosmos-0.0.6.tgz#f05b62a55663da3a73b7039510d5da4602617037"
+  integrity sha512-B/RoKFQ73MgauKRK0grpxKtlocJ62Ck2MkQrjop7OmQ2PdOj9KYl+CorbD0IRWpWVDLtdnD5pAlzHVLxSYRT5Q==
   dependencies:
-    "@polkadot/util" "^8"
-    ansi-styles "^6.1.0"
-    bn.js "5.2.0"
-    chalk "^4.1.2"
-    class-transformer "0.5.1"
+    "@subql/common" latest
+    "@subql/types-cosmos" "0.0.6"
+    class-transformer "0.4.0"
     class-validator "^0.13.2"
-    detect-port "^1.3.0"
-    flatted "^3.2.5"
-    graphql "^15.8.0"
-    graphql-tag "^2.12.6"
-    ipfs-http-client "^52.0.3"
     js-yaml "^4.1.0"
-    pino "^6.13.3"
     reflect-metadata "^0.1.13"
-    rotating-file-stream "^3.0.2"
-    semver "^7.3.5"
-    sequelize "^6.15.0"
-    tar "^6.1.11"
-    vm2 "3.9.9"
 
-"@subql/common@0.21.1":
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/@subql/common/-/common-0.21.1.tgz#4f6d30fd518f43a4c1a3fbb841673491283564d3"
-  integrity sha512-7fbSZmeE26Kx39KXQiNED8Dpk4zShO3NO5rRg0DPSNCoMuXDGCCyLTBmm38rCcQUPpCmq+NteWUFcTSkWNKKEQ==
+"@subql/common-substrate@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@subql/common-substrate/-/common-substrate-1.1.0.tgz#8496a16a2893c1ea3c73f33fd714c8bb7c7e2a09"
+  integrity sha512-uUQKXK7qUvPi6n6jfpcC3ZY6pCB42EQUG4Wfi/cSy9Jv80LVLrC/DwZMZxUagLhf5tBUrouuBPF1giLJebHCiw==
   dependencies:
-    "@polkadot/util" "^8"
-    ansi-styles "^6.1.0"
-    bn.js "5.2.0"
-    chalk "^4.1.2"
-    class-transformer "0.5.1"
+    "@subql/common" "1.1.0"
+    "@subql/types" "1.1.0"
+    class-transformer "0.4.0"
     class-validator "^0.13.2"
-    detect-port "^1.3.0"
-    flatted "^3.2.5"
-    graphql "^15.8.0"
-    graphql-tag "^2.12.6"
-    ipfs-http-client "^52.0.3"
     js-yaml "^4.1.0"
-    pino "^6.13.3"
     reflect-metadata "^0.1.13"
-    rotating-file-stream "^3.0.2"
-    semver "^7.3.5"
-    sequelize "^6.15.0"
-    tar "^6.1.11"
-    vm2 "3.9.9"
 
-"@subql/types-terra@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@subql/types-terra/-/types-terra-0.3.0.tgz#6cca2cdd4083a6da333c44245051045f0cf9090f"
-  integrity sha512-phHlOuIaqeXjUN4k54IAs4zKnYadxxB9h2Oc8mY250HGMxTfWTvqcakHWvN7gt2houMbbfMxclqhHKfhf5j+pA==
-
-"@subql/types@0.14.0":
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/@subql/types/-/types-0.14.0.tgz#a736b27aa5f0b40f92befc871b56d115d64bf442"
-  integrity sha512-J9GsAJ/Q7SH7HWV1DI3ORsi2T5+gFWm665iOpCNFOmsfuLNzrjjlyqoQhAaf45D8F8DeK/WooNnWFNPze8g1NQ==
-
-"@subql/validator@0.6.0":
+"@subql/common-terra@^0.6.0", "@subql/common-terra@latest":
   version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@subql/validator/-/validator-0.6.0.tgz#7e768325f728c45d49fc742ab81ae121bf74fbeb"
-  integrity sha512-JmT5x4iyo+v9qEIixqUrBRUJbUhSHNc4NPUzonx8hGm6jcsteAFkRlmfJ7omzOPtpPEQI1F7+RwoazFkTp6Zhw==
+  resolved "https://registry.yarnpkg.com/@subql/common-terra/-/common-terra-0.6.0.tgz#0dfe0f25df02d7643c530283cafab46d660b4b99"
+  integrity sha512-kJkR61bkKBc6Ng/xg+BHQj5wG9iHHW3aR0uBNGEz8a2ibcb2S0UqwxVV3hLUP7Zyj5cz2creDN0GcMGpmY0Ikg==
   dependencies:
-    "@subql/common" "0.21.0"
-    "@subql/common-substrate" "0.3.0"
+    "@subql/types-terra" "0.4.0"
+    class-transformer "0.4.0"
+    class-validator "^0.13.2"
+    js-yaml "^4.1.0"
+    reflect-metadata "^0.1.13"
+
+"@subql/common@0.22.0":
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/@subql/common/-/common-0.22.0.tgz#219460bcfe5a5091aeb0b3ced2aae7110640f55d"
+  integrity sha512-bX6kQ/bR9IS8kysygCm3/Q3T5sNFrUdCty5FHw23560NmkcXAedWZNWA9X6z03LJgZ1cjGjPcD7NTYoNk7mnzA==
+  dependencies:
+    axios "^0.27.2"
+    class-transformer "0.5.1"
+    class-validator "^0.13.2"
+    js-yaml "^4.1.0"
+    reflect-metadata "^0.1.13"
+    semver "^7.3.5"
+
+"@subql/common@1.0.1-0":
+  version "1.0.1-0"
+  resolved "https://registry.yarnpkg.com/@subql/common/-/common-1.0.1-0.tgz#1600fa87f963386e497df7c0550b191d56e238b6"
+  integrity sha512-I0Q3ZvM7U5AVjzvqN1z/spGj83rqiy1TtXezVvSG+k7PS/acq6lU0tQ0RnjiNtQWoYnw2e7fVnZ74oCoak0WAQ==
+  dependencies:
+    axios "^0.27.2"
+    class-transformer "0.5.1"
+    class-validator "^0.13.2"
+    js-yaml "^4.1.0"
+    reflect-metadata "^0.1.13"
+    semver "^7.3.5"
+
+"@subql/common@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@subql/common/-/common-1.1.0.tgz#a7d7eb450a6d1c0c9fbee858880b1bbc7f22fd65"
+  integrity sha512-SahUsaM6TykdaxzGTBy1KoREKiS07btz/jn43/hbr0caxuWCdlZ6t+Se7rOqTXA64YYEqkPQI6ijpscweKNwvA==
+  dependencies:
+    axios "^0.27.2"
+    class-transformer "0.5.1"
+    class-validator "^0.13.2"
+    js-yaml "^4.1.0"
+    reflect-metadata "^0.1.13"
+    semver "^7.3.5"
+
+"@subql/common@1.2.0", "@subql/common@latest":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@subql/common/-/common-1.2.0.tgz#31cab4f3e7f6792acb1fa201cf3156dff020ca9c"
+  integrity sha512-oFf9YWPHe5M+iBVVPWxeLD26kVzxPhmKJp9K3tY8sAbJdgVTuq4sWHhrF8zGvBzFNIwWduzovx/F2ooGWlEmxg==
+  dependencies:
+    axios "^0.27.2"
+    class-transformer "0.5.1"
+    class-validator "^0.13.2"
+    js-yaml "^4.1.0"
+    reflect-metadata "^0.1.13"
+    semver "^7.3.5"
+
+"@subql/types-avalanche@0.0.2-0":
+  version "0.0.2-0"
+  resolved "https://registry.yarnpkg.com/@subql/types-avalanche/-/types-avalanche-0.0.2-0.tgz#e5009b9df393950905866a7c373f6b7bd723e02a"
+  integrity sha512-H6C5qZDQ0Q+4QCm2XAARxPNkkCIFB35D71BZJDV991BU2Y2dQf6cR6JdRRO9sqXdDRvhp+7yUP9QvahIUGJaVA==
+
+"@subql/types-avalanche@0.0.3-4":
+  version "0.0.3-4"
+  resolved "https://registry.yarnpkg.com/@subql/types-avalanche/-/types-avalanche-0.0.3-4.tgz#7fc6f35b1b08bb5a0b2e3be2ed8d62030d619377"
+  integrity sha512-abZMh+pca+NBsLcIQ/dGsb5D3wWsS01cy+o62EdOIXTKTKLK0J9ZpLPddiM/DFD54DtARS9Y2Ru6A0Vusch4aA==
+
+"@subql/types-cosmos@0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@subql/types-cosmos/-/types-cosmos-0.0.6.tgz#c8a85d1c1a758227715f2853c398fe62378b6105"
+  integrity sha512-g9OEfksOr3E/riXf0U4lNIixG06RzvbOOLBfzBIWqZxFk0MJWyFafR+zYROs8BTcuAc9aTsTMLtzuWHgs3s6Ug==
+
+"@subql/types-terra@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@subql/types-terra/-/types-terra-0.4.0.tgz#09f70e6b8820fa98b9bf2f6807cde4476a179d5f"
+  integrity sha512-+Qx9tPCAQpIF0u4jSnW5GbjZoVdpt4GJpkIp4hDao3uUS6Vs68ZbtNQCl+EMP0eU7WTHJjwWmTflPvf665SYaw==
+
+"@subql/types@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@subql/types/-/types-1.1.0.tgz#3e88cdd203a867d07938f5f43c9fc18c26e34aa1"
+  integrity sha512-gvKE5LjMjiZfCTyAIQRWZuCMp9svbDz7+vTx5ZVHxe06hyfFpB5BalVdefeQySyi7nCjVoH4pV22AQK9Eyo58g==
+
+"@subql/utils@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@subql/utils/-/utils-1.0.0.tgz#97927aa0a7aa02ff06be70da908ddac459d30e32"
+  integrity sha512-tNN51epayZ1MLd+x1hhSXUF7Wrt7l11JlCTHc9u3OM6937NhaCzy9WBz+8vaBUNhYuV72AlyQpGuB/qazTAukA==
+  dependencies:
+    "@polkadot/util" "^9"
+    ansi-styles "^6.1.0"
+    axios "^0.27.1"
+    chalk "^4.1.2"
+    detect-port "^1.3.0"
+    flatted "^3.2.5"
+    graphql "^15.8.0"
+    graphql-tag "^2.12.6"
+    ipfs-http-client "^52.0.3"
+    pino "^6.13.3"
+    rotating-file-stream "^3.0.2"
+    semver "^7.3.7"
+    sequelize "^6.15.0"
+    tar "^6.1.11"
+
+"@subql/validator@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@subql/validator/-/validator-1.2.0.tgz#975ab695ff8de6a663904502143db04b4a0d3b8a"
+  integrity sha512-97XGmsif1ccVg9omtYvEodCrJ823yOclM4YLWnHmBtNMEzmKTCk5n0BZw9Nls0WDYqRF/0n05Uq+WJteeowfyA==
+  dependencies:
+    "@subql/common" "1.2.0"
+    "@subql/common-avalanche" latest
+    "@subql/common-cosmos" "^0.0.6"
+    "@subql/common-substrate" "1.1.0"
+    "@subql/common-terra" latest
     axios "^0.24.0"
     ipfs-http-client "^52.0.3"
     js-yaml "^4.1.0"
@@ -1578,6 +1611,14 @@ axios@^0.24.0:
   dependencies:
     follow-redirects "^1.14.4"
 
+axios@^0.27.1, axios@^0.27.2:
+  version "0.27.2"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.27.2.tgz#207658cc8621606e586c85db4b41a750e756d972"
+  integrity sha512-t+yRIyySRTp/wua5xEr+z1q60QmLq8ABsS5O9Me1AsE5dfKqgnCFzwiCZZ/cGNd1lq4/7akDWMxdhVlucjmnOQ==
+  dependencies:
+    follow-redirects "^1.14.9"
+    form-data "^4.0.0"
+
 balanced-match@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
@@ -1636,7 +1677,7 @@ bn.js@4.11.6:
   resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.6.tgz#53344adb14617a13f6e8dd2ce28905d1c0ba3215"
   integrity sha1-UzRK2xRhehP26N0s4okF0cC6MhU=
 
-bn.js@5.2.0, bn.js@^5.2.0:
+bn.js@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-5.2.0.tgz#358860674396c6997771a9d051fcc1b57d4ae002"
   integrity sha512-D7iWRBvnZE8ecXiLj/9wbxH7Tk79fAh8IHaTNq1RWRixsS02W+5qS+iE9yq6RYl0asXx5tw0bLhmT5pIfbSquw==
@@ -2600,6 +2641,11 @@ follow-redirects@^1.14.4:
   version "1.14.9"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.9.tgz#dd4ea157de7bfaf9ea9b3fbd85aa16951f78d8d7"
   integrity sha512-MQDfihBQYMcyy5dhRDJUHcw7lb2Pv/TuE6xP1vyraLukNDHKbDxDNaOE3NbCAdKQApno+GPRyo1YAp89yCjK4w==
+
+follow-redirects@^1.14.9:
+  version "1.15.1"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.1.tgz#0ca6a452306c9b276e4d3127483e29575e207ad5"
+  integrity sha512-yLAMQs+k0b2m7cVxpS1VKJVvoz7SS9Td1zss3XRwXj+ZDH00RJgnuLx7E44wx02kQLrdM3aOOy+FpzS7+8OizA==
 
 form-data@^3.0.0:
   version "3.0.1"
@@ -4797,6 +4843,13 @@ semver@^7.1.1, semver@^7.1.3, semver@^7.2.1, semver@^7.3.2, semver@^7.3.4, semve
   dependencies:
     lru-cache "^6.0.0"
 
+semver@^7.3.7:
+  version "7.3.7"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.7.tgz#12c5b649afdbf9049707796e22a4028814ce523f"
+  integrity sha512-QlYTucUYOews+WeEujDoEGziz4K6c47V/Bd+LjSSYcA94p+DmINdf7ncaUinThfvZyu13lN9OY1XDxt8C0Tw0g==
+  dependencies:
+    lru-cache "^6.0.0"
+
 sequelize-pool@^7.1.0:
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/sequelize-pool/-/sequelize-pool-7.1.0.tgz#210b391af4002762f823188fd6ecfc7413020768"
@@ -5468,7 +5521,7 @@ vinyl@^2.0.1:
     remove-trailing-separator "^1.0.1"
     replace-ext "^1.0.0"
 
-vm2@3.9.9:
+vm2@^3.9.9:
   version "3.9.9"
   resolved "https://registry.yarnpkg.com/vm2/-/vm2-3.9.9.tgz#c0507bc5fbb99388fad837d228badaaeb499ddc5"
   integrity sha512-xwTm7NLh/uOjARRBs8/95H0e8fT3Ukw5D/JJWhxMbhKzNh1Nu981jQKvkep9iKYNxzlVrdzD0mlBGkDKZWprlw==

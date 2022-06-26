@@ -4,10 +4,10 @@ version: 1.0.0
 runner:
   node:
     name: '@subql/node'
-    version: '>=0.34.0'
+    version: '>=1.1.0'
   query:
     name: '@subql/query'
-    version: '>=0.15.0'
+    version: '>=1.1.0'
 description: >-
   This subquery indexes bond,reward and slash of each block, summarize total
   earning of an account
