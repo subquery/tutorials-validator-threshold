@@ -4,19 +4,19 @@ version: 1.0.0
 runner:
   node:
     name: '@subql/node'
-    version: '>=0.34.0'
+    version: '>=1.5.0'
   query:
     name: '@subql/query'
-    version: '*'
+    version: '>=1.5.0'
 description: >-
   This subquery indexes the least staking amount required for a validator to be elected.
 repository: 'https://github.com/subquery/subql-examples'
 schema:
   file: ./schema.graphql
 network:
-  chainId: 0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3
-  endpoint: https://polkadot.api.onfinality.io/public
-  dictionary: https://api.subquery.network/sq/subquery/polkadot-dictionary
+  chainId: '0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3'
+  endpoint: 'https://polkadot.api.onfinality.io/public'
+  dictionary: 'https://api.subquery.network/sq/subquery/polkadot-dictionary'
 dataSources:
   - kind: substrate/Runtime
     startBlock: 1
